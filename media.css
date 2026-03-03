@@ -111,17 +111,12 @@
 @media (max-width: 720px) {
 
   .contact-container {
-    flex-direction: column;
+    flex-direction: column !important;
+    padding: 25px 15px !important;
   }
 
-  .contact-image {
-    width: 100%;
-    min-height: auto;
-  }
-
-  .contact-image img {
-    width: 100%;
-    height: auto;
+  .contact-form {
+    width: 100% !important;
   }
 
   .input-group {
@@ -142,39 +137,6 @@
   }
 
   .send-btn {
-    width: 100% !important;
-  }
-
-  .footer-container {
-    padding: 30px 15px !important;
-  }
-
-  .footer-top,
-  .footer-middle,
-  .footer-bottom {
-    flex-direction: column !important;
-    align-items: center !important;
-    text-align: center !important;
-    gap: 20px;
-  }
-
-  .footer-nav {
-    flex-direction: column !important;
-    gap: 12px;
-  }
-
-  .footer-contact {
-    width: 100%;
-  }
-
-  .newsletter {
-    flex-direction: column !important;
-    width: 100%;
-    gap: 15px;
-  }
-
-  .newsletter input,
-  .newsletter button {
     width: 100% !important;
   }
 
