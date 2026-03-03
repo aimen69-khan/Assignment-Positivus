@@ -667,13 +667,17 @@ span{
   gap: 40px;
 }
 
-.contact-form,
 .contact-image {
-  flex: 1 1 400px;
+  flex: 1 1 500px;
+  min-height: 400px;
+  position: relative;
+  overflow: hidden;
 }
 
-.contact-image {
-  margin-left: 0;
+.contact-image img {
+  width: 110%;
+  height: auto;
+  display: block;
 }
 
 .radio-group {
