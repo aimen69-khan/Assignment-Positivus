@@ -667,15 +667,18 @@ span{
   gap: 40px;
 }
 
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
 .contact-image {
-  flex: 1 1 500px;
-  min-height: 400px;
-  position: relative;
-  overflow: hidden;
+  flex: 1;
 }
 
 .contact-image img {
-  width: 110%;
+  width: 100%;
   height: auto;
   display: block;
 }

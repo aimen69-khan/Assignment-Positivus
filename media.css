@@ -111,12 +111,17 @@
 @media (max-width: 720px) {
 
   .contact-container {
-    flex-direction: column !important;
-    padding: 25px 15px !important;
+    flex-direction: column;
   }
 
-  .contact-form {
-    width: 100% !important;
+  .contact-image {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .contact-image img {
+    width: 100%;
+    height: auto;
   }
 
   .input-group {
