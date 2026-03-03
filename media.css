@@ -1,94 +1,166 @@
-@media (max-width: 992px) {
+@media (max-width: 480px) {
 
-  .hero-content,
-  .cta-container,
-  .case-container,
-  .contact-container,
-  .footer-top,
-  .footer-middle {
-    flex-direction: column;
-    text-align: center;
-  }
+    .hero-content,
+    .cta-container,
+    .case-container,
+    .contact-container,
+    .footer-top,
+    .footer-middle,
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
 
-  .services .container {
-    grid-template-columns: 1fr;
-  }
+    .nav-links {
+        display: none;
+    }
 
-  .team-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    .team-container {
+        grid-template-columns: 1fr;
+    }
 
-  .testimonial-cards {
-    flex-direction: column;
-    align-items: center;
-  }
+    .services .container {
+        grid-template-columns: 1fr;
+    }
 
-  .brand-logos {
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-  }
+    .testimonial-cards {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  .contact-image {
-    margin-left: 0;
-  }
+    .brand-logos {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
 
-  .Butt {
-    margin-left: 0;
-    text-align: center;
-  }
+    .cta-container,
+    .contact-container,
+    .testimonial-wrapper {
+        padding: 30px 20px;
+    }
 
+    .newsletter {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .newsletter input {
+        width: 100%;
+    }
+
+    .cta-graphics {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media (max-width: 720px) {
 
-  .nav {
-    flex-direction: column;
-    gap: 15px;
-  }
+    .hero-content,
+    .cta-container,
+    .case-container,
+    .contact-container,
+    .footer-top,
+    .footer-middle,
+    .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
 
-  .nav-links {
-    flex-direction: column;
-    gap: 15px;
-    text-align: center;
-  }
+    .services .container {
+        grid-template-columns: 1fr;
+    }
 
-  .hero-text h1 {
-    font-size: 28px;
-  }
+    .team-container {
+        grid-template-columns: 1fr;
+    }
 
-  .hero-image img {
-    max-width: 100%;
-  }
+    .testimonial-cards {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  .team-container {
-    grid-template-columns: 1fr;
-  }
+    .brand-logos {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
 
-  .footer-nav {
-    flex-direction: column;
-    gap: 15px;
-  }
+    .cta-container,
+    .contact-container,
+    .testimonial-wrapper {
+        padding: 40px 25px;
+    }
 
-  .newsletter {
-    flex-direction: column;
-  }
+    .hero-text h1 {
+        font-size: 30px;
+    }
 
-  .newsletter input {
-    width: 100%;
-  }
+    .hero-image img {
+        max-width: 300px;
+    }
 
-  .cta-container,
-  .cta-box {
-    padding: 30px;
-  }
+    .newsletter {
+        flex-direction: column;
+        width: 100%;
+    }
 
-  .process-card {
-    padding: 20px;
-  }
-
-  .testimonial-wrapper {
-    padding: 40px 20px;
-  }
+    .newsletter input {
+        width: 100%;
+    }
 
 }
+
+@media (max-width: 768px) {
+
+    .hero-content,
+    .cta-container,
+    .case-container,
+    .contact-container,
+    .footer-top,
+    .footer-middle {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .services .container {
+        grid-template-columns: 1fr;
+    }
+
+    .team-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .testimonial-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .brand-logos {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .team-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .services .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+    }
+
+}
+
